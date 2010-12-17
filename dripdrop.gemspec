@@ -96,7 +96,7 @@ Gem::Specification.new do |s|
       s.add_runtime_dependency(%q<em-websocket>, [">= 0"])
       s.add_runtime_dependency(%q<thin>, [">= 0"])
       s.add_runtime_dependency(%q<zmqmachine>, [">= 0"])
-      s.add_runtime_dependency(%q<messagepack>, [">= 0"])
+      s.add_runtime_dependency(%q<msgpack>, [">= 0"])
       s.add_runtime_dependency(%q<json>, [">= 0"])
     else
       s.add_dependency(%q<ffi-rzmq>, [">= 0"])
@@ -104,7 +104,7 @@ Gem::Specification.new do |s|
       s.add_dependency(%q<em-websocket>, [">= 0"])
       s.add_dependency(%q<thin>, [">= 0"])
       s.add_dependency(%q<zmqmachine>, [">= 0"])
-      s.add_dependency(%q<messagepack>, [">= 0"])
+      s.add_dependency(%q<msgpack>, [">= 0"])
       s.add_dependency(%q<json>, [">= 0"])
     end
   else
@@ -113,7 +113,7 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<em-websocket>, [">= 0"])
     s.add_dependency(%q<thin>, [">= 0"])
     s.add_dependency(%q<zmqmachine>, [">= 0"])
-    s.add_dependency(%q<messagepack>, [">= 0"])
+    s.add_dependency(%q<msgpack>, [">= 0"])
     s.add_dependency(%q<json>, [">= 0"])
   end
 end
